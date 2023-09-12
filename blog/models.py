@@ -16,3 +16,9 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+    
+
+
+# you need to add new model "python manage.py makemigrations blog"
+
+# and then "python manage.py migrate blog"
